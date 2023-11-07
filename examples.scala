@@ -8,4 +8,4 @@ def findFirst[A](as: Array[A], p: A => Boolean): Int = {
   loop(0)
 }
 
-println(findFirst(Array(7, 9, 13), (x: Int) => x == 9))
+println(findFirst(Array(7, 9, 13), (x: Int) => x == 9)) // function literal or anonymous function
